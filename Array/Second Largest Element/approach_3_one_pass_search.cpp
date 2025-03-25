@@ -21,6 +21,7 @@ public:
         {
             if (arr[i] > largest)
             {
+                second_largest = largest;
                 largest = arr[i];
                 
             }
